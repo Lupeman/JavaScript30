@@ -1,0 +1,45 @@
+html {
+  background: url("///Users/jaimegunther/JS30/D1/drums.jpg");
+  background-size: cover;
+  background-position:0 10%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.keys {
+  text-align: center;
+  margin-top: 100px;
+}
+.key {
+  width:50px;
+  height: 50px;
+  border: 3px solid black;
+  display: inline-block;
+  transition: all 0.08s;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+letter {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+}
+
+span {
+  padding-top: 2px;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: center;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: #f512ea;
+  box-shadow: 0 0 10px #f512ea;
+}
